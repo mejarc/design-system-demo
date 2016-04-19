@@ -1,49 +1,40 @@
 <form>
-    <fieldset>
-      <legend>Sign in</legend>
-      <ol>
+  <fieldset class="usa-fieldset-inputs">
+    <legend>Sign in</legend>
+    <ol>
+      <li>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email">
+      </li>
+      <li>
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+        <p>
+          <a title="Show password" href="#">
+            Show password</a>
+          </p>
+        </li>
         <li>
-      <label for="username">Username or email address</label>
-      <input id="username" name="username" type="text" autocapitalize="off" autocorrect="off">
-    </li>
-    <li>
-
-      <label for="password">Password</label>
-      <input id="password" name="password" type="password">
-      <p>
-        <a title="Show password" href="#">
-          Show password</a>
-      </p>
-    </li>
-    <li>
-      <input type="submit" value="Sign in">
-    </li>
-  </ol>
-      <p><a href="#" title="Forgot username">
-        Forgot username?</a></p>
-      <p><a href="#" title="Forgot password">
-        Forgot password?</a></p>
+          <input type="submit" value="Sign in">
+        </li>
+      </ol>
     </fieldset>
-    <fieldset>
-
-    <legend>Choose one</legend>
-
-    <ul>
-      <li>
-        <input id="pea-soup" type="radio" checked="" name="soup" value="pea">
-        <label for="pea-soup">Yes</label>
-      </li>
-      <li>
-        <input id="chicken-noodle" type="radio" name="soup" value="chicken-noodle">
-        <label for="chicken-noodle">No</label>
-      </li>
-      <li>
-        <input id="tomato" type="radio" name="soup" value="tomato">
-        <label for="tomato">Maybe</label>
-      </li>
-    </ul>
-
-  </fieldset>
-
-
-</form>
+    <fieldset class="usa-fieldset-inputs">
+      <legend>Choose one</legend>
+      <ul class="usa-unstyled-list">
+        <li>
+          <input id="pea-soup" type="radio" checked="" name="soup" value="pea">
+          <label for="pea-soup">Yes</label>
+        </li>
+        <li>
+          <input id="chicken-noodle" type="radio" name="soup" value="chicken-noodle">
+          <label for="chicken-noodle">No</label>
+        </li>
+        <li>
+          <input id="tomato" type="radio" name="soup" value="tomato">
+          <label for="tomato">Maybe</label>
+        </li>
+      </ul>
+    </fieldset>
+  </form>
