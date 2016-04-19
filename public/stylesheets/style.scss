@@ -5,3 +5,6 @@ $padding-unit: 10rem;
 body {
   padding: $padding-unit;
 }
+form {
+  max-width: 100%;
+}
