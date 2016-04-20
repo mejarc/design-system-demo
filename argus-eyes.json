@@ -3,7 +3,7 @@
   "pages": [ {
     "name": "index",
     "url": "http://localhost:3000",
-    "components": [ "fieldset", "plain-list-item", "text-input" ]
+    "components": [ "fieldset", "plain-list-item", "email-input" ]
     } ],
   "components": [ {
     "name": "fieldset",
@@ -12,7 +12,7 @@
     "name": "plain-list-item",
     "selector": "ul li"
   }, {
-    "name": "text-input",
-    "selector": "input[type=text]"
+    "name": "email-input",
+    "selector": "input[type=email]"
   } ]
 }
